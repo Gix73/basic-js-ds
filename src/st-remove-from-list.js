@@ -22,7 +22,7 @@ const { NotImplementedError } = require('../extensions/index.js');
 module.exports = function removeKFromList( l, k ) {
   
   if(l.value == k){
-    l.value = l.next
+    l = l.next
   }  
 
  let list = l;
